@@ -20,10 +20,18 @@ def list_snt(arr):
         if checkSoNguyenTo(arr[i]) is True:
             print(f"({i},{arr[i]})", end=" ")
     print()
-with open('input4.txt','r+') as file:
+def count_x(arr,x):
+    count = 0
+    for i in arr:
+        if i == x:
+            count += 1
+    return count
+with open('input5.txt','r+') as file:
     t = int(file.readline())
     for i in range(t):
-        n = int(file.readline())
+        num1 = [int(x) for x in file.readline().split()]
+        n = num1[0]
+        x = num1[1]
         num = [int(x) for x in file.readline().split()]
         print(f'Test {i + 1}: ')
         if n <= 0:
@@ -33,5 +41,6 @@ with open('input4.txt','r+') as file:
             print(f'Trung binh cong cac so la: {trung_binh(num,n)}')
             print(f'List cac so nguyen to la ')
             list_snt(num)
+            print(f'So lan xuat hien cua {x} la: {count_x(num,x)}')
 
 
