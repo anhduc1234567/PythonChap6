@@ -1,0 +1,20 @@
+Test 1: 
+INVALID
+Test 2: 
+Tong cac so là: 109
+Trung binh cong cac so la: 27.25
+List cac so nguyen to la 
+(2,29) (3,47) 
+So lan xuat hien cua 25 la: 0 
+Test 3: 
+Tong cac so là: 24
+Trung binh cong cac so la: 2.6666666666666665
+List cac so nguyen to la 
+(0,3) (2,5) (4,2) (5,3) (8,3) 
+So lan xuat hien cua 3 la: 3 
+Test 4: 
+Tong cac so là: 45
+Trung binh cong cac so la: 9.0
+List cac so nguyen to la 
+
+So lan xuat hien cua 9 la: 5 
