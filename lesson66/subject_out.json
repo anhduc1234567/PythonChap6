@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Hệ điều hành Window 11",
+        "credit": 7,
+        "id": 1005
+    },
+    {
+        "name": "Lập trình C#",
+        "credit": 4,
+        "id": 1000
+    },
+    {
+        "name": "Lập trình C++",
+        "credit": 3,
+        "id": 1001
+    },
+    {
+        "name": "Lập trình Java",
+        "credit": 3,
+        "id": 1002
+    },
+    {
+        "name": "Lập trình PHP",
+        "credit": 4,
+        "id": 1003
+    },
+    {
+        "name": "Lập trình ứng dụng di động iOS",
+        "credit": 5,
+        "id": 1006
+    },
+    {
+        "name": "Phân tích thiết kế hệ thống",
+        "credit": 4,
+        "id": 1004
+    },
+    {
+        "name": "Vi xử lý",
+        "credit": 3,
+        "id": 1007
+    }
+]

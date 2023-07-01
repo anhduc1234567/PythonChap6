@@ -150,12 +150,20 @@ class Transaction:
         self.time = datetime.datetime.now()
         Transaction.AUTO_ID += 1
 
+    def info(self):
+        ate_str = f'{self.time.day:02}/{self.time.month:02}/' \
+                  f'{self.time.year:4} {self.time.hour:02}:' \
+                  f'{self.time.minute:02}:{self.time.second:02}'
+        return f'MA_GIAO DICH: {self.id} {self.num_bank} ' \
+               f'Kieu giao dich: {self.name} FEE {self.fee} ' \
+               f'{self.result} {ate_str}'
+
     def __str__(self):
         ate_str = f'{self.time.day:02}/{self.time.month:02}/' \
                   f'{self.time.year:4} {self.time.hour:02}:' \
                   f'{self.time.minute:02}:{self.time.second:02}'
         return f'MA_GIAO DICH: {self.id} {self.num_bank} '\
-               f'Kieu giao dich: {self.name} Phí {self.fee} '\
+               f'Kieu giao dich: {self.name} FEE {self.fee} '\
                 f'{self.result} {ate_str}'
 
 def creat_account():
@@ -183,7 +191,7 @@ def find_account(acc,id):
         if i.number_bank == id:
             return i
     return None
-def nap_tien(acc):
+def nap_tien(acc,out):
     print("Nhap so tk:")
     id  = input()
     acc = find_account(acc,id)
@@ -191,11 +199,13 @@ def nap_tien(acc):
         money = int(input('Nhap so tien muon nap '))
         re = acc.naptien(money)
         if re > 0:
-            return Transaction(acc.number_bank,"NAP TIEN",0,"COMPLETE")
-        else:
-            return Transaction(acc.number_bank, "NAP TIEN", 0, "FAIL")
+             out.write(Transaction(acc.number_bank,"NAP TIEN",0,"COMPLETE").__str__() + '\n')
 
-def rut_tien_same(acc):
+        else:
+             out.write(Transaction(acc.number_bank, "NAP TIEN", 0, "FAIL").__str__() + '\n')
+             out.write('\n')
+
+def rut_tien_same(acc,out):
     print("Nhap so tk:")
     id = input()
     acc = find_account(acc, id)
@@ -203,10 +213,12 @@ def rut_tien_same(acc):
         money = int(input('Nhap so tien muon rut: '))
         re = acc.ruttien(money)
         if re > 0:
-            return Transaction(acc.number_bank, "RUT TIEN", acc.fee_in, "COMPLETE")
+            out.write(Transaction(acc.number_bank, "RUT TIEN", acc.fee_in, "COMPLETE").__str__() + '\n')
+            out.write('\n')
         else:
-            return Transaction(acc.number_bank, "RUT TIEN", acc.fee_in, "FAIL")
-def pay_bill_in(acc):
+            out.write(Transaction(acc.number_bank, "RUT TIEN", acc.fee_in, "FAIL").__str__() + '\n')
+            out.write('\n')
+def pay_bill_in(acc,out):
     print("Nhap so tk:")
     id = input()
     acc = find_account(acc, id)
@@ -214,9 +226,11 @@ def pay_bill_in(acc):
         money = int(input('Nhap so tien bill: '))
         re = acc.pay_bill(money)
         if re > 0:
-            return Transaction(acc.number_bank, "THANH TOAN HOA DON TRONG NUOC ", 0, "COMPLETE")
+             out.write(Transaction(acc.number_bank, "THANH TOAN HOA DON TRONG NUOC ", 0, "COMPLETE").__str__() + '\n')
+             out.write('\n')
         else:
-            return Transaction(acc.number_bank, "THANH TOAN HOA DON TRONG NUOC", 0, "FAIL")
+            out.write(Transaction(acc.number_bank, "THANH TOAN HOA DON TRONG NUOC", 0, "FAIL").__str__() + '\n')
+            out.write('\n')
 
 accounts = creat_account()
 
@@ -227,11 +241,14 @@ while menu != 10:
         print("DANH SACH CÁC TÀI KHOẢN LA:")
         print_arr(accounts)
     if menu == 2:
-        print(nap_tien(accounts))
+        with open('tran.dat','a+') as out:
+            nap_tien(accounts,out)
     if menu == 3:
-        print(rut_tien_same(accounts))
+        with open('tran.dat', 'a+') as out:
+             rut_tien_same(accounts,out)
     if menu == 4:
-        print(pay_bill_in(accounts))
+        with open('tran.dat', 'a+') as out:
+            pay_bill_in(accounts,out)
 
 
 

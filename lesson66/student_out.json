@@ -1,0 +1,130 @@
+[
+    {
+        "id": "09123456787",
+        "name": {
+            "first": "Anh",
+            "mid": "Quỳnh",
+            "last": "Lý"
+        },
+        "birth": {
+            "day": 11,
+            "month": 11,
+            "year": 2005
+        },
+        "gpa": 3.14,
+        "major": "CNTT",
+        "msv": "SV1007"
+    },
+    {
+        "id": "09123456784",
+        "name": {
+            "first": "Mạnh",
+            "mid": "Đức",
+            "last": "Vũ"
+        },
+        "birth": {
+            "day": 10,
+            "month": 10,
+            "year": 2005
+        },
+        "gpa": 3.75,
+        "major": "CNTT",
+        "msv": "SV1004"
+    },
+    {
+        "id": "09123456781",
+        "name": {
+            "first": "Nguyên",
+            "mid": "Trung",
+            "last": "Lê"
+        },
+        "birth": {
+            "day": 24,
+            "month": 11,
+            "year": 2004
+        },
+        "gpa": 3.15,
+        "major": "CNTT",
+        "msv": "SV1001"
+    },
+    {
+        "id": "09123456780",
+        "name": {
+            "first": "Quý",
+            "mid": "Minh",
+            "last": "Hoàng"
+        },
+        "birth": {
+            "day": 20,
+            "month": 5,
+            "year": 2005
+        },
+        "gpa": 3.65,
+        "major": "CNTT",
+        "msv": "SV1000"
+    },
+    {
+        "id": "09123456783",
+        "name": {
+            "first": "Quỳnh",
+            "mid": "Thúy",
+            "last": "Mai"
+        },
+        "birth": {
+            "day": 19,
+            "month": 4,
+            "year": 2005
+        },
+        "gpa": 3.31,
+        "major": "CNTT",
+        "msv": "SV1003"
+    },
+    {
+        "id": "09123456782",
+        "name": {
+            "first": "Thanh",
+            "mid": "Thị Kim",
+            "last": "Trần"
+        },
+        "birth": {
+            "day": 16,
+            "month": 9,
+            "year": 2005
+        },
+        "gpa": 3.36,
+        "major": "CNTT",
+        "msv": "SV1002"
+    },
+    {
+        "id": "09123456785",
+        "name": {
+            "first": "Trang",
+            "mid": "Thị Thùy",
+            "last": "Đặng"
+        },
+        "birth": {
+            "day": 13,
+            "month": 12,
+            "year": 2005
+        },
+        "gpa": 3.35,
+        "major": "CNTT",
+        "msv": "SV1005"
+    },
+    {
+        "id": "09123456786",
+        "name": {
+            "first": "Tuấn",
+            "mid": "Kim",
+            "last": "Trần"
+        },
+        "birth": {
+            "day": 19,
+            "month": 1,
+            "year": 2005
+        },
+        "gpa": 3.04,
+        "major": "CNTT",
+        "msv": "SV1006"
+    }
+]

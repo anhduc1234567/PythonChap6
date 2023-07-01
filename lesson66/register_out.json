@@ -1,0 +1,110 @@
+[
+    {
+        "id": 100,
+        "student": {
+            "student_id": "09123456787",
+            "student_name": "Anh"
+        },
+        "subject": {
+            "subject_id": 1005,
+            "subject_name": "Hệ điều hành Window 11"
+        },
+        "register_time": "29/06/2023 22:55:38"
+    },
+    {
+        "id": 101,
+        "student": {
+            "student_id": "09123456784",
+            "student_name": "Mạnh"
+        },
+        "subject": {
+            "subject_id": 1000,
+            "subject_name": "Lập trình C#"
+        },
+        "register_time": "29/06/2023 22:55:38"
+    },
+    {
+        "id": 102,
+        "student": {
+            "student_id": "09123456781",
+            "student_name": "Nguyên"
+        },
+        "subject": {
+            "subject_id": 1001,
+            "subject_name": "Lập trình C++"
+        },
+        "register_time": "29/06/2023 22:55:38"
+    },
+    {
+        "id": 103,
+        "student": {
+            "student_id": "09123456780",
+            "student_name": "Quý"
+        },
+        "subject": {
+            "subject_id": 1002,
+            "subject_name": "Lập trình Java"
+        },
+        "register_time": "29/06/2023 22:55:38"
+    },
+    {
+        "id": 104,
+        "student": {
+            "student_id": "09123456783",
+            "student_name": "Quỳnh"
+        },
+        "subject": {
+            "subject_id": 1003,
+            "subject_name": "Lập trình PHP"
+        },
+        "register_time": "29/06/2023 22:55:38"
+    },
+    {
+        "id": 105,
+        "student": {
+            "student_id": "09123456782",
+            "student_name": "Thanh"
+        },
+        "subject": {
+            "subject_id": 1006,
+            "subject_name": "Lập trình ứng dụng di động iOS"
+        },
+        "register_time": "29/06/2023 22:55:38"
+    },
+    {
+        "id": 106,
+        "student": {
+            "student_id": "09123456785",
+            "student_name": "Trang"
+        },
+        "subject": {
+            "subject_id": 1004,
+            "subject_name": "Phân tích thiết kế hệ thống"
+        },
+        "register_time": "29/06/2023 22:55:38"
+    },
+    {
+        "id": 107,
+        "student": {
+            "student_id": "09123456786",
+            "student_name": "Tuấn"
+        },
+        "subject": {
+            "subject_id": 1007,
+            "subject_name": "Vi xử lý"
+        },
+        "register_time": "29/06/2023 22:55:38"
+    },
+    {
+        "id": 108,
+        "student": {
+            "student_id": "09123456780",
+            "student_name": "Quý"
+        },
+        "subject": {
+            "subject_id": 1000,
+            "subject_name": "Lập trình C#"
+        },
+        "register_time": "29/06/2023 22:55:38"
+    }
+]

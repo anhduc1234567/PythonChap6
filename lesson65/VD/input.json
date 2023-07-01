@@ -1,0 +1,221 @@
+[
+{
+"id": "SV001"
+,
+"age": 20
+,
+"major": "CNTT"
+,
+"gpa": 3.25
+,
+"full_name": {
+"first": "Ngọc"
+,
+"mid": "Văn"
+,
+"last": "Nguyễn"
+},
+"address": {
+"wards": "Xuân Phương"
+,
+"district": "Nam Từ Liêm"
+,
+
+"city": "Hà Nội"
+}
+},
+{
+"id": "SV002"
+,
+"age": 20
+,
+"major": "CNTT"
+,
+"gpa": 3.75
+,
+"full_name": {
+"first": "Linh"
+,
+"mid": "Thị Mỹ"
+,
+"last": "Đỗ"
+},
+"address": {
+"wards": "Minh Khai"
+,
+"district": "Bắc Từ Liêm"
+,
+
+"city": "Hà Nội"
+}
+},
+{
+"id": "SV003"
+,
+"age": 20
+,
+"major": "CNTT"
+,
+"gpa": 3.45
+,
+"full_name": {
+"first": "Khánh"
+,
+"mid": "Ngọc"
+,
+"last": "Nguyễn"
+},
+"address": {"wards": "Cổ Nhuế"
+,
+"district": "Bắc Từ Liêm"
+,
+
+"city": "Hà Nội"
+}
+},
+{
+"id": "SV004"
+,
+"age": 20
+,
+"major": "CNTT"
+,
+"gpa": 3.15
+,
+"full_name": {
+"first": "Tuấn"
+,
+"mid": "Công"
+,
+"last": "Lê"
+},
+"address": {
+"wards": "Bách Khoa"
+,
+"district": "Hai Bà Trưng"
+,
+
+"city": "Hà Nội"
+}
+},
+{
+"id": "SV005"
+,
+"age": 21
+,
+"major": "CNTT"
+,
+"gpa": 3.55
+,
+"full_name": {
+"first": "Tuấn"
+,
+"mid": "Thanh"
+,
+"last": "Hoàng"
+},
+"address": {
+"wards": "Bách Khoa"
+,
+"district": "Hai Bà Trưng"
+,
+
+"city": "Hà Nội"
+}
+},
+{
+"id": "SV006"
+,
+"age": 20
+,
+"major": "CNTT"
+,
+"gpa": 3.45
+,
+"full_name": {
+"first": "Liên"
+,
+"mid": "Kim"
+,
+"last": "Phùng"
+  },
+"address": {
+"wards": "Liễu Giai"
+,
+"district": "Ba Đình"
+,
+"city": "Hà Nội"
+}
+},
+{
+"id": "SV007"
+,
+"age": 20
+,
+"major": "CNTT"
+,
+"gpa": 3.65
+,
+"full_name": {
+"first": "Duy"
+,
+"mid": "Quang"
+,
+"last": "Đỗ"
+},
+"address": {
+"wards": "Ao Sen"
+,
+
+"district"
+
+: "Hà Đông"
+,
+"city": "Hà Nội"
+}
+},
+{
+"id": "SV008"
+,
+"age": 20
+,
+"major": "CNTT"
+,
+"gpa": 3.45
+,
+"full_name": {
+"first": "Mai"
+,
+"mid": "Thị Như"
+,
+"last": "Phạm"
+},
+"address": {
+"wards": "Mai Dịch"
+,
+"district": "Cầu Giấy"
+,
+"city": "Hà Nội"
+}
+},
+{
+"id": "SV009"
+,
+"age": 20
+,
+"major": "CNTT"
+,
+"gpa": 3.95
+,
+"full_name": {
+"first": "Như",
+  "mid": "Thị Quỳnh",
+"last": "Lê"
+},
+"address": {
+"wards": "Thanh Chương",
+"district": "Tây Hồ",
+"city": "Hà Nội"
+}
+}
+]
